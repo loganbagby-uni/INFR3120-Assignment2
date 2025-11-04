@@ -1,0 +1,72 @@
+/* MOBILE STYLES (max-width: 600px) */
+
+/* To make navbar stack links vertically */
+
+.navbar ul {
+    display: block;
+    text-align: center;
+}
+
+.navbar li {
+    flex: none;
+}
+
+.navbar a {
+    padding: 10px;
+    font-size: 1rem;
+}
+/* About Section */
+
+.about{
+    width:95%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.about h1 {
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
+/* Making profile photo smaller for mobile devices */
+
+.profile-photo{
+    width:150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+/* Making my intro text smaller and left-aligned */
+.intro{
+    font-size: 1rem;
+    text-align: left;
+    padding: 0 5px;
+}
+
+.intro-video{
+    width: 100%;
+    height: auto;
+}
+
+/* Mobile Page */
+
+.projects{
+    width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.projects h1 {
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
+.project-item {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.project-item h2 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}

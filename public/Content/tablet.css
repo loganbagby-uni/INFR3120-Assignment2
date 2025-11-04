@@ -1,0 +1,92 @@
+/* TABLET STYLES (601px - 1024px) */
+/* Chosen for tablets and small laptops */
+
+/* Navbar adjustments for tablet */
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    padding: 12px 15px;
+    font-size: 1.1rem;
+}
+
+/* About Section - Tablet */
+.about {
+    width: 85%;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+.about h1 {
+    font-size: 1.8rem;
+    padding: 12px 0;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 22px;
+}
+
+.intro {
+    font-size: 1.05rem;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.intro-video h2 {
+    font-size: 1.5rem;
+}
+
+.intro-video video {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Projects Section - Tablet */
+.projects {
+    width: 85%;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+.projects h1 {
+    font-size: 1.8rem;
+    padding: 12px 0;
+}
+
+.project-card {
+    padding: 18px;
+    margin-bottom: 22px;
+}
+
+.project-card h2 {
+    font-size: 1.3rem;
+}
+
+/* Contact Section - Tablet */
+.contact {
+    width: 85%;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+.contact h1 {
+    font-size: 1.8rem;
+}
+
+.contact-form {
+    max-width: 550px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 1rem;
+}
+
+.contact-form button {
+    font-size: 1.05rem;
+    padding: 11px 25px;
+} 

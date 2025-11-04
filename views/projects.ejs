@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <%- include('partials/header') %>
+    <title>Projects</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me </a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Me </a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="projects">
+            <h1>My Projects</h1>
+
+            <article class="project-card">
+                <h2>Python Banking App</h2>
+                <p>In this project I built an app in Python that simulates how a mobile banking app would work.
+                    It had features such as: creating & deleting accounts, logging in to an account, deposit & withdraw
+                    money,
+                    and check account balances. I created this bank app for a final assignment in a year 1 class.
+                </p>
+            </article>
+
+            <article class="project-card">
+                <h2>Network Simulator</h2>
+                <p>In this project me and my group were given a network topology and were tasked to build
+                    it in cisco packet tracer, once built we had to add the correct configurations that would allow
+                    different networks to be able to communicate with eachother.
+                </p>
+            </article>
+
+            <article class="project-card">
+                <h2>Vowel Counter</h2>
+                <p>This is another project that was built in python. I asked the user for a string
+                    of characters, the program I built would then take the input and return however many vowels
+                    were in the string. If there was no vowels it would return "No vowels!".
+                </p>
+            </article>
+
+            <article class="project-card">
+                <h2>Simple Calcualtor</h2>
+                <p>I built this project when I was in highschool in Java, it was a simple calcualtor that would
+                    ask the user for two or more numbers. Once the user entered all the numbers they wanted, they are prompted
+                    with what operation they want to prefrom on them, once selected it would return the result.
+                </p>
+            </article>
+        </section>
+
+    </main>
+
+  <%- include('partials/footer') %>
+
+</body>
+
+</html>

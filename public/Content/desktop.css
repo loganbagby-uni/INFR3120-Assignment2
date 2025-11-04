@@ -1,0 +1,115 @@
+/* DESKTOP STYLES (1025px and above) */
+/* Chosen for large screens and desktop monitors */
+
+/* Navbar */
+.navbar a {
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+/* About Section */
+.about {
+    width: 70%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.about h1 {
+    font-size: 2.2rem;
+}
+
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.intro {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto 40px;
+}
+
+.intro-video h2 {
+    font-size: 1.8rem;
+}
+
+.intro-video video {
+    width: 600px;
+    max-width: 100%;
+}
+
+/* Projects Section */
+.projects {
+    width: 70%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.projects h1 {
+    font-size: 2.2rem;
+}
+
+.project-card {
+    padding: 25px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.project-card h2 {
+    font-size: 1.5rem;
+}
+
+.project-card p {
+    line-height: 1.6;
+}
+
+/* Contact Section */
+.contact {
+    width: 70%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.contact h1 {
+    font-size: 2.2rem;
+}
+
+.contact-form {
+    max-width: 700px;
+}
+
+.contact-form label {
+    font-size: 1.05rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 1.05rem;
+}
+
+.contact-form button {
+    font-size: 1.15rem;
+    padding: 14px 35px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover {
+    transform: scale(1.05);
+}
+
+/* Main content for index.html */
+main {
+    font-size: 1.2rem;
+    padding: 40px;
+}

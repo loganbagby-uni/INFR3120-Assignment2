@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/header') %>
+    <title>About Me</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me </a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Me </a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="about">
+            <h1>About me</h1>
+
+            <img src="IMG_2223.jpg" alt="Photo Of Logan Bagby" class="profile-photo">
+
+             <!--Personal introduction article-->
+            <article class="intro">
+                <p>Hello! My name is Logan Bagby I am 19 years old and I am in my 2nd year at
+                    Ontario Tech Univeristy where I am studying Networking & IT Security.</p>
+                <div></div> <!--Spacing dividers-->
+                <p>I grew up in a small town called Caledon, which is roughly an hour north from Toronto.
+                    It's population is around 85,733 people, for which me my family account for 6 of them!
+                    (7 if you include the dog) </p>
+                <div></div>
+                <p>Sunday is my favourite day of the week, because Sunday means it's football Sunday!
+                    My favourite team in the NFL is the Green Bay Packers however I do also support the
+                    New England Patriots because my dad is a fan of them.</p>
+            </article>
+
+            <!--Introduction video section-->
+            <section class="intro-video">
+                <h2>Introduction Video</h2>
+                <video width="480" src="assignment-video.mov" controls poster="">
+                    <source src="" type="video/mp4" />
+                </video>
+            </section>
+        </section>
+    </main>
+
+    <%- include('partials/footer') %>
+</body>
+
+</html>

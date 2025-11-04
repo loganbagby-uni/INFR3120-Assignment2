@@ -1,0 +1,186 @@
+/* MAIN STYLES */
+
+/* Body with angular gradient background */
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* Angular gradient */
+    background: linear-gradient(135deg, #919AA3 0%, #6d7a94 50%, #a8b2c0 100%);
+    min-height: 100vh;
+}
+
+/* Main content padding */
+main {
+    padding-bottom: 50px;
+}
+
+/* Page heading with linear gradient */
+h1 {
+    text-align: center;
+    background: linear-gradient(to right, #4a5568, #6d7a94, #8693ab);
+    color: white;
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+}
+
+/* FOOTER STYLES */
+/* Fixed footer at bottom of page */
+.footer {
+    width: 100%;
+    background-color: #ECF0FB;
+    text-align: center;
+    font-size: smaller;
+    bottom: 0;
+    position: fixed;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    width: 100%;
+}
+
+/* Navigation list with angular gradient background */
+.navbar ul {
+    list-style-type: none;
+    /* Angular gradient for navbar */
+    background: linear-gradient(90deg, #4a5568 0%, #6d7a94 50%, #5a6578 100%);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* Navigation items */
+.navbar li {
+    flex: 1;
+}
+
+/* Navigation links */
+.navbar a {
+    color: white;
+    font-size: large;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* Hover effect with linear gradient */
+.navbar a:hover {
+    background: linear-gradient(to bottom, #3d4557, #4a5568);
+}
+
+/* ABOUT PAGE STYLES */
+
+/* About section container */
+.about {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #ECF0FB;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* About page heading */
+.about h1 {
+    background: linear-gradient(to right, #4a5568, #6d7a94, #8693ab);
+    color: white;
+    padding: 15px 0;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+/* Profile photo styling */
+.profile-photo {
+    display: block;
+    margin: 0 auto 25px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #6d7a94;
+}
+
+/* Introduction text */
+.intro {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* PROJECT PAGE STYLES */
+
+/* Project cards with angular gradient background */
+.project-card {
+    /* Angular gradient */
+    background: linear-gradient(135deg, #d4dde8 0%, #b8c5d6 100%);
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #6d7a94;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* CONTACT PAGE STYLES */
+
+/* Contact form styling */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Form labels */
+.contact-form label {
+    display: block;
+    color: #4a5568;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+/* Form inputs and textarea */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #6d7a94;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Focus state for form elements */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #4a5568;
+}
+
+/* Submit button with linear gradient */
+.contact-form button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: linear-gradient(to right, #6d7a94, #8693ab);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Button hover effect with angular gradient */
+.contact-form button:hover {
+    background: linear-gradient(135deg, #4a5568, #6d7a94);
+}
