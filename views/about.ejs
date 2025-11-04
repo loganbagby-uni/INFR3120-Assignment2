@@ -9,20 +9,13 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me </a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact Me </a></li>
-        </ul>
-    </nav>
+    <%- include('partials/main_nav') %>
 
     <main>
         <section class="about">
             <h1>About me</h1>
 
-            <img src="IMG_2223.jpg" alt="Photo Of Logan Bagby" class="profile-photo">
+            <img src="/Asset/images/IMG_2223.jpg" alt="Photo Of Logan Bagby" class="profile-photo">
 
              <!--Personal introduction article-->
             <article class="intro">
@@ -41,7 +34,7 @@
             <!--Introduction video section-->
             <section class="intro-video">
                 <h2>Introduction Video</h2>
-                <video width="480" src="assignment-video.mov" controls poster="">
+                <video width="480" src="/Asset/images/assignment-video.mov" controls poster="">
                     <source src="" type="video/mp4" />
                 </video>
             </section>
